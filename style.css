@@ -1,0 +1,30 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: blanchedalmond;
+}
+
+#header-section {
+    height: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(110, 30, 30);
+}
+
+#header-section a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: large;
+}
+
+#content-section {
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid;
+    text-align: justify;
+}
+
+#content-section header {
+    text-align: center;
+}
