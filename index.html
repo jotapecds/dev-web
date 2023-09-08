@@ -8,11 +8,14 @@
 </head>
 <body>
     <nav id="header-section">
-        <a href="#">Home</a> |
-        <a href="#content-section">Content</a> |
-        <a href="#footer-section">End</a>
+        <a href="#">
+            <img src="./img/logo.png" alt="A pizza slice logo"/>
+        </a>
+        <a href="#">Apresentação</a>
+        <a href="#content-section">Conteúdo</a>
+        <a href="#footer-section">Fim</a>
       </nav>
-      
+
     <section id="content-section">
         <header>
             <h1>A história da pizza</h1>
@@ -45,14 +48,40 @@
             em Nápoles, na Itália. O restaurante existe até hoje."
         </p>
         <p>
-            Veja mais sobre "História da pizza" em: 
-            https://brasilescola.uol.com.br/curiosidades/historia-da-pizza.htm
+            <h4>Bibliografia e Fontes:</h4>
+            <ul>
+                <li><a href="https://brasilescola.uol.com.br/curiosidades/historia-da-pizza.htm">História da Pizza</a></li>
+            </ul> 
+            
         </p>
     </section>
 
+    <div id="banner-section">
+        <img src="./img/background-2.jpg" alt="">
+    </div>
+
+    <section id="form-section">
+        <form action="#">
+            <h3>E aí? Curtiu?</h3>
+            <h4>Realize sua interação aqui!</h4>
+
+            Nome <br>
+            <input type="text" name="name" id="frmName"><br><br>    
+
+            Avaliação <br>
+            <input type="range" name="rating" id="fmrRating" min="1" max="5" step="1" list="values"><br><br>
+
+            Faça seu comentário e sugestões <br>
+            <textarea name="comment" id="frmComment" cols="60" rows="10"></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <hr>
     <footer id="footer-section">
-        <p>Author: João Souza</p>
-        <p><a href="mailto:jpcoelhodesouza@gmail.com">jpcoelhodesouza@gmail.com</a></p>
+        Made with &hearts; by <strong>João Souza</strong> | Contact:
+        <a href="mailto:jpcoelhodesouza@gmail.com">jpcoelhodesouza@gmail.com</a>
     </footer>
 </body>
 </html>
