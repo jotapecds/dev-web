@@ -1,0 +1,44 @@
+:root {
+    --cblack: #000;
+    --cblack1: #000;
+    --cblack2: #000;
+    --cred: #CD3529;
+    --cyellow: #FFD143;
+    --cwhite: white;
+}
+body {
+    margin: 20px;
+    background: #000;
+    color: azure;
+}
+#clock,
+#handles {
+    border: 5px solid #CD3529;
+    padding: 20px;
+    margin: 0px;
+}
+#fla {
+    width: 512px;
+    font-family: cursive;
+    text-align: center;
+    font-size: 30px;
+}
+#fla a {
+    color: #CD3529;
+}
+#container {
+    position: relative;
+    height: 512px;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+canvas {
+    position: absolute;
+}
+#handles {
+    z-index: 2;
+}
+#clock {
+    background-color: #a0a0a0;
+    z-index: 1;
+}

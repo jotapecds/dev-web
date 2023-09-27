@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mengo's Clock</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" type="imagex/png" href="./img/flamengo.svg">
+        <link rel="stylesheet" href="style/style.css" />
+    </head>
+
+    <body>
+        <p id="fla">
+            <a href="https://www.flamengo.com.br/">Clube de Regatas do Flamengo</a>
+        </p>
+
+        <div id="container">
+            <canvas id="clock" width="512" height="512">
+                Please upgrade your browser.
+            </canvas>
+            <canvas id="handles" width="512" height="512">
+                Please upgrade your browser.
+            </canvas>
+        </div> <br />
+
+        <p>
+            <audio title="Hino do FLA" controls loop>
+                <source src="./img/MC POZE - OS CORINGA DO FLAMENGO 2019 [ JOTA DA ZN ]_7ZUe-cHbVU8.mp3" type="audio/mpeg" />
+                Please upgrade your browser!
+            </audio>
+
+            <small> Hino do FLA </small>
+        </p>
+
+        <p>
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/VHcSbWLIk2o?si=nOGmL5KX3C0C_7Es" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; 
+                        autoplay; 
+                        clipboard-write; 
+                        encrypted-media; 
+                        gyroscope; 
+                        picture-in-picture; 
+                        web-share" 
+                allowfullscreen>
+            </iframe>
+            <br />
+        </p>
+
+        <script src="suncalc.js"></script>
+        <script src="clock.js"></script>
+        <script src="date.js"></script>
+        
+        <script>
+            document.querySelector(
+                "#Rivelino"
+            ).innerHTML += `(há ${elapsedYears("1975-06-10")} anos atrás)`;
+            document.querySelector("#Renato").innerHTML += `(há ${elapsedYears(
+                "1995-06-25"
+            )} anos atrás)`;
+            document.querySelector("#Cano").innerHTML += `(há ${elapsedYears(
+                "2023-02-12"
+            )} anos atrás)`;
+        </script>
+    </body>
+</html>
