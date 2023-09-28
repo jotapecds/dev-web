@@ -214,7 +214,7 @@ function circle(center, radius, fill = true) {
 function arc(center, radius, t1, t2, fill = true) {
   let [arcInit, arcEnd] = [t1, t2].map((t) => {
     let [hour, minutes] = t.split(":").map((q) => Number(q));
-    return 0.5 * (fiveMin * (hour + minutes / 60) - pi);
+    return (-1) * 0.5 * (fiveMin * (hour + minutes / 60) - pi);
   });
 
   context.beginPath();
