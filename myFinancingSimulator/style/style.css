@@ -1,0 +1,83 @@
+.box {
+    background-color: antiquewhite;
+    box-shadow: 8px 8px 6px grey;
+    width: 450px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: lightblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-left: 2px;
+}
+body {
+    background-color: #f0f0f2;
+    margin: 0;
+    padding: 2em;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont,
+        "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+}
+input {
+    margin: 10px 3px 10px 3px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px 5px 5px 5px;
+}
+label {
+    position: relative;
+    top: 12px;
+    width: 190px;
+    float: left;
+}
+#submitButton {
+    width: 80px;
+    margin-left: 20px;
+}
+#errorMessage {
+    color: red;
+    font-size: 90% !important;
+}
+#successMessage {
+    color: green;
+    font-size: 90% !important;
+    display: block;
+    margin-top: 20px;
+}
+.button {
+    font-size: 13px;
+    color: red;
+    background-color: #f8fad7;
+}
+.button:hover {
+    background-color: #fadad7;
+}
+#draggable {
+    cursor: n-resize;
+}
+#cdcfieldset {
+    cursor: move;
+    border: 1px black solid;
+    background-color: #cac3ba;
+    width: 400px;
+}
+#cdcfieldset legend {
+    border: 5px lightblue solid;
+    background-color: #ff6347;
+    padding: 0.2em 0.8em;
+}
+input.currency {
+    text-align: left;
+    padding-right: 15px;
+}
+.input-group .form-control {
+    float: none;
+}
+.input-group .input-buttons {
+    position: relative;
+    z-index: 3;
+}
+.messages {
+    text-align: center;
+}
