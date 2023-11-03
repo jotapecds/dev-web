@@ -81,3 +81,26 @@ input.currency {
 .messages {
     text-align: center;
 }
+
+.table-container {
+}
+
+#price-table {
+    text-align: center;
+    font-size: 12px;
+    border: 1px solid #000;
+}
+
+#price-table td {
+    width: 100px;
+    border: 1px solid #000;
+}
+
+#price-table th {
+    width: 120px;
+    border: 1px solid #000;
+}
+
+#details-container h3:hover {
+    cursor: pointer;
+}
