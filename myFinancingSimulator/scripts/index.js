@@ -1,4 +1,4 @@
-function validaForm() {
+function validateForm() {
     let errorMessage = "";
     if ($("#itax").val() == 0 && $("#ipp").val() == 0)
         errorMessage += "<p>Taxa de juros e valor final não podem ser ambos nulos.</p>";
@@ -11,21 +11,17 @@ function validaForm() {
 }
 
 $("#submitButton").click(function (event) {
-    let errorMessage = validaForm();
+    let errorMessage = validateForm();
 
     if (errorMessage != "") {
         $("#errorMessage").html(errorMessage);
         $("#errorMessage").show();
         $("#successMessage").hide();
+        event.preventDefault();
     } else {
         $("#successMessage").show();
         $("#errorMessage").hide();
-        window.location.href = "./price.html";
     }
-    
-    
-    
-    event.preventDefault();
 });
 
 dragAndSave("#cdcfieldset"); // $("#cdcfieldset").draggable()

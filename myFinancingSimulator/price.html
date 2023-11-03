@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Price Table</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
     <button
@@ -15,12 +16,16 @@
     <div id="table-containter" class="containter">
         <h3>Resultados</h3>
         <table id="price-table">
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
+            <thead>
+                <th>Mês</th>
+                <th>Prestação</th>
+                <th>Juros</th>
+                <th>Amortização</th>
+                <th>Saldo Devedor</th>
+            </thead>
+            <!-- Construída dinamicamente -->
         </table>
     </div>
+    <script src="./scripts/price.js"></script>
 </body>
 </html>
